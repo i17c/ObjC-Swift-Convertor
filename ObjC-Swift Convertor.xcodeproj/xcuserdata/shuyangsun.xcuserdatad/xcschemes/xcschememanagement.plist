@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ObjC-Swift Convertor Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ObjC-Swift Convertor.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>107277CC19B6814B001990EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>10A403FE19B4D75200892FDB</key>
 		<dict>
 			<key>primary</key>

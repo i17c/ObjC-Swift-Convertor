@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107277CC19B6814B001990EF"
+               BuildableName = "ObjC-Swift Convertor Test.xctest"
+               BlueprintName = "ObjC-Swift Convertor Test"
+               ReferencedContainer = "container:ObjC-Swift Convertor.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

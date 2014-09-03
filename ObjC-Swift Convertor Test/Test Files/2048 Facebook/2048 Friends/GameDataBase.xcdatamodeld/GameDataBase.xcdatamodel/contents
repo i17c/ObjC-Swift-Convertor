@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Board" representedClassName="Board" syncable="YES">
+        <attribute name="boardData" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="createDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gameplaying" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="swipeDirection" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="boardHistory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="boards" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <entity name="GameManager" representedClassName="GameManager" syncable="YES">
+        <attribute name="bestScore" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currentThemeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxOccuredTimesOnBoardForEachTile" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="tileViewType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="gameHistories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="History" inverseName="gManager" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <entity name="History" representedClassName="History" syncable="YES">
+        <attribute name="createDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="boards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Board" inverseName="boardHistory" inverseEntity="Board" syncable="YES"/>
+        <relationship name="gManager" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GameManager" inverseName="gameHistories" inverseEntity="GameManager" syncable="YES"/>
+    </entity>
+    <entity name="Tile" representedClassName="Tile" syncable="YES">
+        <attribute name="fbUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fbUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="nextTile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tile" inverseName="previousTile" inverseEntity="Tile" syncable="YES"/>
+        <relationship name="previousTile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tile" inverseName="nextTile" inverseEntity="Tile" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Board" positionX="1852" positionY="963" width="128" height="148"/>
+        <element name="GameManager" positionX="1411" positionY="765" width="128" height="133"/>
+        <element name="History" positionX="1638" positionY="878" width="128" height="103"/>
+        <element name="Tile" positionX="1411" positionY="953" width="128" height="163"/>
+    </elements>
+</model>

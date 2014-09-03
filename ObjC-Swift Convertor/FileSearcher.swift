@@ -52,13 +52,26 @@ public class FileSearcher {
 		self.init(filePath: nil)
 	}
 
-	/**********************
-	* Methods
-	**********************/
+	/********************
+	 * Methods
+	 *********************/
 
-	public func findObjCFiles() -> [String]? {
+	/********************
+	* Public
+	*********************/
+
+	/********************
+	* Internal
+	*********************/
+
+	// Define this method as internal for testing purpose
+	internal func findObjCFiles() -> [String]? {
 		return searchObjCFilesInPath(filePath)
 	}
+
+	/********************
+	* Private
+	*********************/
 
 	// Assume file exists
 	// Returns a array with all the names of files in it.
@@ -71,13 +84,13 @@ public class FileSearcher {
 				if isDirectory {
 					var potentialErrror:NSError?
 
-					if var contents = fileManager.contentsOfDirectoryAtPath(path, error: &potentialErrror) {
+					if let contents = fileManager.contentsOfDirectoryAtPath(path, error: &potentialErrror) {
 						for file in contents {
 							let filePath:NSString = file as NSString
 							var currentFileIsDir:ObjCBool = ObjCBool(0)
 							fileManager.fileExistsAtPath(filePath, isDirectory: &currentFileIsDir)
 							if currentFileIsDir {
-								var temp:[String]? = searchObjCFilesInPath(filePath)
+								let temp:[String]? = searchObjCFilesInPath(filePath)
 								if temp != nil {
 									res += temp!
 								}
