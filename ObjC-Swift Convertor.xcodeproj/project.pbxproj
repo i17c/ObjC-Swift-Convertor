@@ -14,23 +14,6 @@
 		10A4040A19B4DA8200892FDB /* FileSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4040919B4DA8200892FDB /* FileSearcher.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1072783119B68CD3001990EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1072782119B68CD3001990EF /* 2048 Friends.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0448478518EA1BA100D35B0F;
-			remoteInfo = "2048 Friends";
-		};
-		1072783319B68CD3001990EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1072782119B68CD3001990EF /* 2048 Friends.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 044847A918EA1BA100D35B0F;
-			remoteInfo = "2048 FriendsTests";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		10A403FD19B4D75200892FDB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -48,82 +31,6 @@
 		107277D019B6814B001990EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		107277D119B6814B001990EF /* ObjC_Swift_Convertor_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjC_Swift_Convertor_Test.swift; sourceTree = "<group>"; };
 		107277D619B68189001990EF /* FileSearcherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSearcherTest.swift; path = "../ObjC-Swift Convertor/Tests/FileSearcherTest.swift"; sourceTree = "<group>"; };
-		107277DD19B68CD3001990EF /* 2048 Friends-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2048 Friends-Info.plist"; sourceTree = "<group>"; };
-		107277DE19B68CD3001990EF /* 2048 Friends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2048 Friends-Prefix.pch"; sourceTree = "<group>"; };
-		107277DF19B68CD3001990EF /* 2048 Friends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "2048 Friends.entitlements"; sourceTree = "<group>"; };
-		107277E019B68CD3001990EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		107277E119B68CD3001990EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		107277E319B68CD3001990EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		107277E519B68CD3001990EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		107277E619B68CD3001990EF /* Board+ModelLayer01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Board+ModelLayer01.h"; sourceTree = "<group>"; };
-		107277E719B68CD3001990EF /* Board+ModelLayer01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Board+ModelLayer01.m"; sourceTree = "<group>"; };
-		107277E819B68CD3001990EF /* Board+ModelLayer02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Board+ModelLayer02.h"; sourceTree = "<group>"; };
-		107277E919B68CD3001990EF /* Board+ModelLayer02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Board+ModelLayer02.m"; sourceTree = "<group>"; };
-		107277EA19B68CD3001990EF /* Board+ModelLayer03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Board+ModelLayer03.h"; sourceTree = "<group>"; };
-		107277EB19B68CD3001990EF /* Board+ModelLayer03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Board+ModelLayer03.m"; sourceTree = "<group>"; };
-		107277EC19B68CD3001990EF /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
-		107277ED19B68CD3001990EF /* Board.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
-		107277EE19B68CD3001990EF /* BoardScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardScene.h; sourceTree = "<group>"; };
-		107277EF19B68CD3001990EF /* BoardScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardScene.m; sourceTree = "<group>"; };
-		107277F019B68CD3001990EF /* BoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
-		107277F119B68CD3001990EF /* BoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
-		107277F319B68CD3001990EF /* GameDataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameDataBase.xcdatamodel; sourceTree = "<group>"; };
-		107277F419B68CD3001990EF /* GameManager+ModelLayer01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameManager+ModelLayer01.h"; sourceTree = "<group>"; };
-		107277F519B68CD3001990EF /* GameManager+ModelLayer01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GameManager+ModelLayer01.m"; sourceTree = "<group>"; };
-		107277F619B68CD3001990EF /* GameManager+ModelLayer02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameManager+ModelLayer02.h"; sourceTree = "<group>"; };
-		107277F719B68CD3001990EF /* GameManager+ModelLayer02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GameManager+ModelLayer02.m"; sourceTree = "<group>"; };
-		107277F819B68CD3001990EF /* GameManager+ModelLayer03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameManager+ModelLayer03.h"; sourceTree = "<group>"; };
-		107277F919B68CD3001990EF /* GameManager+ModelLayer03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GameManager+ModelLayer03.m"; sourceTree = "<group>"; };
-		107277FA19B68CD3001990EF /* GameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
-		107277FB19B68CD3001990EF /* GameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
-		107277FC19B68CD3001990EF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		107277FD19B68CD3001990EF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		107277FE19B68CD3001990EF /* HistoriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoriesTableViewController.h; sourceTree = "<group>"; };
-		107277FF19B68CD3001990EF /* HistoriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoriesTableViewController.m; sourceTree = "<group>"; };
-		1072780019B68CD3001990EF /* History+ModelLayer01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "History+ModelLayer01.h"; sourceTree = "<group>"; };
-		1072780119B68CD3001990EF /* History+ModelLayer01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "History+ModelLayer01.m"; sourceTree = "<group>"; };
-		1072780219B68CD3001990EF /* History+ModelLayer02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "History+ModelLayer02.h"; sourceTree = "<group>"; };
-		1072780319B68CD3001990EF /* History+ModelLayer02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "History+ModelLayer02.m"; sourceTree = "<group>"; };
-		1072780419B68CD3001990EF /* History+ModelLayer03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "History+ModelLayer03.h"; sourceTree = "<group>"; };
-		1072780519B68CD3001990EF /* History+ModelLayer03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "History+ModelLayer03.m"; sourceTree = "<group>"; };
-		1072780619B68CD3001990EF /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
-		1072780719B68CD3001990EF /* History.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
-		1072780819B68CD3001990EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1072780919B68CD3001990EF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		1072780A19B68CD3001990EF /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		1072780B19B68CD3001990EF /* macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
-		1072780C19B68CD3001990EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1072780D19B68CD3001990EF /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
-		1072780E19B68CD3001990EF /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
-		1072780F19B68CD3001990EF /* MenuTableViewControllerTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewControllerTransitionAnimator.h; sourceTree = "<group>"; };
-		1072781019B68CD3001990EF /* MenuTableViewControllerTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewControllerTransitionAnimator.m; sourceTree = "<group>"; };
-		1072781119B68CD3001990EF /* Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
-		1072781219B68CD3001990EF /* Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
-		1072781319B68CD3001990EF /* Tile+ModelLayer01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tile+ModelLayer01.h"; sourceTree = "<group>"; };
-		1072781419B68CD3001990EF /* Tile+ModelLayer01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tile+ModelLayer01.m"; sourceTree = "<group>"; };
-		1072781519B68CD3001990EF /* Tile+ModelLayer02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tile+ModelLayer02.h"; sourceTree = "<group>"; };
-		1072781619B68CD3001990EF /* Tile+ModelLayer02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tile+ModelLayer02.m"; sourceTree = "<group>"; };
-		1072781719B68CD3001990EF /* Tile+ModelLayer03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tile+ModelLayer03.h"; sourceTree = "<group>"; };
-		1072781819B68CD3001990EF /* Tile+ModelLayer03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tile+ModelLayer03.m"; sourceTree = "<group>"; };
-		1072781919B68CD3001990EF /* Tile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
-		1072781A19B68CD3001990EF /* Tile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
-		1072781B19B68CD3001990EF /* TileSKShapeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileSKShapeNode.h; sourceTree = "<group>"; };
-		1072781C19B68CD3001990EF /* TileSKShapeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileSKShapeNode.m; sourceTree = "<group>"; };
-		1072781D19B68CD3001990EF /* TileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
-		1072781E19B68CD3001990EF /* TileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
-		1072781F19B68CD3001990EF /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		1072782019B68CD3001990EF /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		1072782119B68CD3001990EF /* 2048 Friends.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "2048 Friends.xcodeproj"; sourceTree = "<group>"; };
-		1072782519B68CD3001990EF /* 2048 FriendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2048 FriendsTests-Info.plist"; sourceTree = "<group>"; };
-		1072782619B68CD3001990EF /* _048_Friends Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_048_Friends Tests.m"; sourceTree = "<group>"; };
-		1072782719B68CD3001990EF /* BoardSceneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardSceneTests.m; sourceTree = "<group>"; };
-		1072782819B68CD3001990EF /* BoardTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardTest.m; sourceTree = "<group>"; };
-		1072782919B68CD3001990EF /* FetchingImagesTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchingImagesTest.m; sourceTree = "<group>"; };
-		1072782A19B68CD3001990EF /* GameManagerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameManagerTest.m; sourceTree = "<group>"; };
-		1072782B19B68CD3001990EF /* HistoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTest.m; sourceTree = "<group>"; };
-		1072782C19B68CD3001990EF /* TileTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileTest.m; sourceTree = "<group>"; };
-		1072782D19B68CD3001990EF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		1072782E19B68CD3001990EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10A403FF19B4D75200892FDB /* ObjC-Swift Convertor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-Swift Convertor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A4040219B4D75200892FDB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		10A4040919B4DA8200892FDB /* FileSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSearcher.swift; sourceTree = "<group>"; };
@@ -160,119 +67,9 @@
 		107277CF19B6814B001990EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				107277DB19B68CD3001990EF /* 2048 Facebook */,
 				107277D019B6814B001990EF /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		107277DB19B68CD3001990EF /* 2048 Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				107277DC19B68CD3001990EF /* 2048 Friends */,
-				1072782119B68CD3001990EF /* 2048 Friends.xcodeproj */,
-				1072782419B68CD3001990EF /* 2048 FriendsTests */,
-				1072782D19B68CD3001990EF /* FacebookSDK.framework */,
-				1072782E19B68CD3001990EF /* README.md */,
-			);
-			name = "2048 Facebook";
-			path = "ObjC-Swift Convertor Test/Test Files/2048 Facebook";
-			sourceTree = SOURCE_ROOT;
-		};
-		107277DC19B68CD3001990EF /* 2048 Friends */ = {
-			isa = PBXGroup;
-			children = (
-				107277DD19B68CD3001990EF /* 2048 Friends-Info.plist */,
-				107277DE19B68CD3001990EF /* 2048 Friends-Prefix.pch */,
-				107277DF19B68CD3001990EF /* 2048 Friends.entitlements */,
-				107277E019B68CD3001990EF /* AppDelegate.h */,
-				107277E119B68CD3001990EF /* AppDelegate.m */,
-				107277E219B68CD3001990EF /* Main_iPad.storyboard */,
-				107277E419B68CD3001990EF /* Main_iPhone.storyboard */,
-				107277E619B68CD3001990EF /* Board+ModelLayer01.h */,
-				107277E719B68CD3001990EF /* Board+ModelLayer01.m */,
-				107277E819B68CD3001990EF /* Board+ModelLayer02.h */,
-				107277E919B68CD3001990EF /* Board+ModelLayer02.m */,
-				107277EA19B68CD3001990EF /* Board+ModelLayer03.h */,
-				107277EB19B68CD3001990EF /* Board+ModelLayer03.m */,
-				107277EC19B68CD3001990EF /* Board.h */,
-				107277ED19B68CD3001990EF /* Board.m */,
-				107277EE19B68CD3001990EF /* BoardScene.h */,
-				107277EF19B68CD3001990EF /* BoardScene.m */,
-				107277F019B68CD3001990EF /* BoardViewController.h */,
-				107277F119B68CD3001990EF /* BoardViewController.m */,
-				107277F219B68CD3001990EF /* GameDataBase.xcdatamodeld */,
-				107277F419B68CD3001990EF /* GameManager+ModelLayer01.h */,
-				107277F519B68CD3001990EF /* GameManager+ModelLayer01.m */,
-				107277F619B68CD3001990EF /* GameManager+ModelLayer02.h */,
-				107277F719B68CD3001990EF /* GameManager+ModelLayer02.m */,
-				107277F819B68CD3001990EF /* GameManager+ModelLayer03.h */,
-				107277F919B68CD3001990EF /* GameManager+ModelLayer03.m */,
-				107277FA19B68CD3001990EF /* GameManager.h */,
-				107277FB19B68CD3001990EF /* GameManager.m */,
-				107277FC19B68CD3001990EF /* GameViewController.h */,
-				107277FD19B68CD3001990EF /* GameViewController.m */,
-				107277FE19B68CD3001990EF /* HistoriesTableViewController.h */,
-				107277FF19B68CD3001990EF /* HistoriesTableViewController.m */,
-				1072780019B68CD3001990EF /* History+ModelLayer01.h */,
-				1072780119B68CD3001990EF /* History+ModelLayer01.m */,
-				1072780219B68CD3001990EF /* History+ModelLayer02.h */,
-				1072780319B68CD3001990EF /* History+ModelLayer02.m */,
-				1072780419B68CD3001990EF /* History+ModelLayer03.h */,
-				1072780519B68CD3001990EF /* History+ModelLayer03.m */,
-				1072780619B68CD3001990EF /* History.h */,
-				1072780719B68CD3001990EF /* History.m */,
-				1072780819B68CD3001990EF /* Images.xcassets */,
-				1072780919B68CD3001990EF /* LoginViewController.h */,
-				1072780A19B68CD3001990EF /* LoginViewController.m */,
-				1072780B19B68CD3001990EF /* macro.h */,
-				1072780C19B68CD3001990EF /* main.m */,
-				1072780D19B68CD3001990EF /* MenuTableViewController.h */,
-				1072780E19B68CD3001990EF /* MenuTableViewController.m */,
-				1072780F19B68CD3001990EF /* MenuTableViewControllerTransitionAnimator.h */,
-				1072781019B68CD3001990EF /* MenuTableViewControllerTransitionAnimator.m */,
-				1072781119B68CD3001990EF /* Theme.h */,
-				1072781219B68CD3001990EF /* Theme.m */,
-				1072781319B68CD3001990EF /* Tile+ModelLayer01.h */,
-				1072781419B68CD3001990EF /* Tile+ModelLayer01.m */,
-				1072781519B68CD3001990EF /* Tile+ModelLayer02.h */,
-				1072781619B68CD3001990EF /* Tile+ModelLayer02.m */,
-				1072781719B68CD3001990EF /* Tile+ModelLayer03.h */,
-				1072781819B68CD3001990EF /* Tile+ModelLayer03.m */,
-				1072781919B68CD3001990EF /* Tile.h */,
-				1072781A19B68CD3001990EF /* Tile.m */,
-				1072781B19B68CD3001990EF /* TileSKShapeNode.h */,
-				1072781C19B68CD3001990EF /* TileSKShapeNode.m */,
-				1072781D19B68CD3001990EF /* TileView.h */,
-				1072781E19B68CD3001990EF /* TileView.m */,
-				1072781F19B68CD3001990EF /* UIImage+ImageEffects.h */,
-				1072782019B68CD3001990EF /* UIImage+ImageEffects.m */,
-			);
-			path = "2048 Friends";
-			sourceTree = "<group>";
-		};
-		1072782219B68CD3001990EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1072783219B68CD3001990EF /* 2048 Friends.app */,
-				1072783419B68CD3001990EF /* 2048 FriendsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1072782419B68CD3001990EF /* 2048 FriendsTests */ = {
-			isa = PBXGroup;
-			children = (
-				1072782519B68CD3001990EF /* 2048 FriendsTests-Info.plist */,
-				1072782619B68CD3001990EF /* _048_Friends Tests.m */,
-				1072782719B68CD3001990EF /* BoardSceneTests.m */,
-				1072782819B68CD3001990EF /* BoardTest.m */,
-				1072782919B68CD3001990EF /* FetchingImagesTest.m */,
-				1072782A19B68CD3001990EF /* GameManagerTest.m */,
-				1072782B19B68CD3001990EF /* HistoryTest.m */,
-				1072782C19B68CD3001990EF /* TileTest.m */,
-			);
-			path = "2048 FriendsTests";
 			sourceTree = "<group>";
 		};
 		10A403F619B4D75200892FDB = {
@@ -367,12 +164,6 @@
 			mainGroup = 10A403F619B4D75200892FDB;
 			productRefGroup = 10A4040019B4D75200892FDB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1072782219B68CD3001990EF /* Products */;
-					ProjectRef = 1072782119B68CD3001990EF /* 2048 Friends.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				10A403FE19B4D75200892FDB /* ObjC-Swift Convertor */,
@@ -380,23 +171,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1072783219B68CD3001990EF /* 2048 Friends.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "2048 Friends.app";
-			remoteRef = 1072783119B68CD3001990EF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1072783419B68CD3001990EF /* 2048 FriendsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "2048 FriendsTests.xctest";
-			remoteRef = 1072783319B68CD3001990EF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		107277CB19B6814B001990EF /* Resources */ = {
@@ -429,25 +203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		107277E219B68CD3001990EF /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				107277E319B68CD3001990EF /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		107277E419B68CD3001990EF /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				107277E519B68CD3001990EF /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		107277D419B6814B001990EF /* Debug */ = {
@@ -602,19 +357,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		107277F219B68CD3001990EF /* GameDataBase.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				107277F319B68CD3001990EF /* GameDataBase.xcdatamodel */,
-			);
-			currentVersion = 107277F319B68CD3001990EF /* GameDataBase.xcdatamodel */;
-			path = GameDataBase.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 10A403F719B4D75200892FDB /* Project object */;
 }
