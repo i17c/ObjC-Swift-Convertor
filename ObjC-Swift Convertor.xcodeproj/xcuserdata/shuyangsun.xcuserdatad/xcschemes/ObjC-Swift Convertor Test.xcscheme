@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "10A403FE19B4D75200892FDB"
-               BuildableName = "ObjC-Swift Convertor"
-               BlueprintName = "ObjC-Swift Convertor"
+               BlueprintIdentifier = "107277CC19B6814B001990EF"
+               BuildableName = "ObjC-Swift Convertor Test.xctest"
+               BlueprintName = "ObjC-Swift Convertor Test"
                ReferencedContainer = "container:ObjC-Swift Convertor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10A403FE19B4D75200892FDB"
-            BuildableName = "ObjC-Swift Convertor"
-            BlueprintName = "ObjC-Swift Convertor"
+            BlueprintIdentifier = "107277CC19B6814B001990EF"
+            BuildableName = "ObjC-Swift Convertor Test.xctest"
+            BlueprintName = "ObjC-Swift Convertor Test"
             ReferencedContainer = "container:ObjC-Swift Convertor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -58,15 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10A403FE19B4D75200892FDB"
-            BuildableName = "ObjC-Swift Convertor"
-            BlueprintName = "ObjC-Swift Convertor"
+            BlueprintIdentifier = "107277CC19B6814B001990EF"
+            BuildableName = "ObjC-Swift Convertor Test.xctest"
+            BlueprintName = "ObjC-Swift Convertor Test"
             ReferencedContainer = "container:ObjC-Swift Convertor.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "10A403FE19B4D75200892FDB"
-            BuildableName = "ObjC-Swift Convertor"
-            BlueprintName = "ObjC-Swift Convertor"
+            BlueprintIdentifier = "107277CC19B6814B001990EF"
+            BuildableName = "ObjC-Swift Convertor Test.xctest"
+            BlueprintName = "ObjC-Swift Convertor Test"
             ReferencedContainer = "container:ObjC-Swift Convertor.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

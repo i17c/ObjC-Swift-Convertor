@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107277D219B6814B001990EF /* ObjC_Swift_Convertor_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107277D119B6814B001990EF /* ObjC_Swift_Convertor_Test.swift */; };
+		107277D719B68189001990EF /* FileSearcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107277D619B68189001990EF /* FileSearcherTest.swift */; };
+		107277D919B68C28001990EF /* FileSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4040919B4DA8200892FDB /* FileSearcher.swift */; };
 		10A4040319B4D75200892FDB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4040219B4D75200892FDB /* main.swift */; };
+		10A4040A19B4DA8200892FDB /* FileSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4040919B4DA8200892FDB /* FileSearcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +27,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		107277CD19B6814B001990EF /* ObjC-Swift Convertor Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-Swift Convertor Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107277D019B6814B001990EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107277D119B6814B001990EF /* ObjC_Swift_Convertor_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjC_Swift_Convertor_Test.swift; sourceTree = "<group>"; };
+		107277D619B68189001990EF /* FileSearcherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSearcherTest.swift; path = "../ObjC-Swift Convertor/Tests/FileSearcherTest.swift"; sourceTree = "<group>"; };
 		10A403FF19B4D75200892FDB /* ObjC-Swift Convertor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-Swift Convertor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A4040219B4D75200892FDB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		10A4040919B4DA8200892FDB /* FileSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSearcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		107277CA19B6814B001990EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10A403FC19B4D75200892FDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +54,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107277CE19B6814B001990EF /* ObjC-Swift Convertor Test */ = {
+			isa = PBXGroup;
+			children = (
+				107277D119B6814B001990EF /* ObjC_Swift_Convertor_Test.swift */,
+				107277D619B68189001990EF /* FileSearcherTest.swift */,
+				107277CF19B6814B001990EF /* Supporting Files */,
+			);
+			path = "ObjC-Swift Convertor Test";
+			sourceTree = "<group>";
+		};
+		107277CF19B6814B001990EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107277D019B6814B001990EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		10A403F619B4D75200892FDB = {
 			isa = PBXGroup;
 			children = (
 				10A4040119B4D75200892FDB /* ObjC-Swift Convertor */,
+				107277CE19B6814B001990EF /* ObjC-Swift Convertor Test */,
 				10A4040019B4D75200892FDB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				10A403FF19B4D75200892FDB /* ObjC-Swift Convertor */,
+				107277CD19B6814B001990EF /* ObjC-Swift Convertor Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				10A4040219B4D75200892FDB /* main.swift */,
+				10A4040919B4DA8200892FDB /* FileSearcher.swift */,
 			);
 			path = "ObjC-Swift Convertor";
 			sourceTree = "<group>";
@@ -65,6 +102,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		107277CC19B6814B001990EF /* ObjC-Swift Convertor Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107277D319B6814B001990EF /* Build configuration list for PBXNativeTarget "ObjC-Swift Convertor Test" */;
+			buildPhases = (
+				107277C919B6814B001990EF /* Sources */,
+				107277CA19B6814B001990EF /* Frameworks */,
+				107277CB19B6814B001990EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC-Swift Convertor Test";
+			productName = "ObjC-Swift Convertor Test";
+			productReference = 107277CD19B6814B001990EF /* ObjC-Swift Convertor Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		10A403FE19B4D75200892FDB /* ObjC-Swift Convertor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10A4040619B4D75200892FDB /* Build configuration list for PBXNativeTarget "ObjC-Swift Convertor" */;
@@ -91,6 +145,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Shuyang Sun";
 				TargetAttributes = {
+					107277CC19B6814B001990EF = {
+						CreatedOnToolsVersion = 6.0;
+					};
 					10A403FE19B4D75200892FDB = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -102,6 +159,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 10A403F619B4D75200892FDB;
 			productRefGroup = 10A4040019B4D75200892FDB /* Products */;
@@ -109,22 +167,76 @@
 			projectRoot = "";
 			targets = (
 				10A403FE19B4D75200892FDB /* ObjC-Swift Convertor */,
+				107277CC19B6814B001990EF /* ObjC-Swift Convertor Test */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		107277CB19B6814B001990EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		107277C919B6814B001990EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107277D919B68C28001990EF /* FileSearcher.swift in Sources */,
+				107277D719B68189001990EF /* FileSearcherTest.swift in Sources */,
+				107277D219B6814B001990EF /* ObjC_Swift_Convertor_Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10A403FB19B4D75200892FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10A4040319B4D75200892FDB /* main.swift in Sources */,
+				10A4040A19B4DA8200892FDB /* FileSearcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		107277D419B6814B001990EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjC-Swift Convertor Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107277D519B6814B001990EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjC-Swift Convertor Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		10A4040419B4D75200892FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -217,6 +329,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		107277D319B6814B001990EF /* Build configuration list for PBXNativeTarget "ObjC-Swift Convertor Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107277D419B6814B001990EF /* Debug */,
+				107277D519B6814B001990EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		10A403FA19B4D75200892FDB /* Build configuration list for PBXProject "ObjC-Swift Convertor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -233,6 +354,7 @@
 				10A4040819B4D75200892FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

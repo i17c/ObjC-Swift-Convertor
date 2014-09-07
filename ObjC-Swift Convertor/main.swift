@@ -8,5 +8,6 @@
 
 import Foundation
 
-println("Hello, World!")
+let searcher:FileSearcher = FileSearcher(filePath: "/Users/shuyangsun/Developer/iOS Projects/2048 Facebook/2048 Friends/")
+searcher.printFilePairs()
 
